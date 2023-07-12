@@ -34,7 +34,7 @@ class _PostRequestPage extends ConsumerState<PostRequestPage> {
 // final postProvider = ref.watch(formProvider).;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Using ChangeNotifier'),
+        title: const Text('Post'),
         centerTitle: true,
         elevation: 2,
       ),

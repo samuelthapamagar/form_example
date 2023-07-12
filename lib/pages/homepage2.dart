@@ -41,7 +41,7 @@ class _HomePage2 extends ConsumerState<HomePage2> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Using FutureProvider'),
+        title: const Text('Flutter riverpod with api'),
         centerTitle: true,
         elevation: 2,
       ),
@@ -60,7 +60,7 @@ class _HomePage2 extends ConsumerState<HomePage2> {
                     color: Colors.deepPurple),
               ),
             ),
-const SizedBox(height: 20),
+               const SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
