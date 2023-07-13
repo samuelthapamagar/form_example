@@ -35,7 +35,7 @@ class FormListPage extends ConsumerWidget {
                               formList: formList, index: index);
                         }),
                   )
-                ],
+                ]
               );
             },
             error: (err, s) => Text(err.toString()),
